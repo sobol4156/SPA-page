@@ -1,0 +1,322 @@
+body {
+  background-color: #5c5555;
+  margin: 0 auto;
+  width: 1440px;
+  font-family: "DM Sans";
+  letter-spacing: 3.2px;
+}
+.page {
+  background-color: #191919;
+  text-align: center;
+}
+.header {
+  text-align: center;
+
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+  height: 119px;
+}
+.list {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding: 30px;
+  font-size: 17px;
+  
+}
+.list li span {
+  cursor: pointer;
+}
+
+.block1 {
+  margin: 0;
+  height: 913px;
+}
+
+.block1MR {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+.imgNiger {
+  width: 650px;
+  height: 873px;
+}
+
+.blockText {
+  width: 530px;
+  height: 873px;
+  font-family: "DM Sans";
+  letter-spacing: 3.2px;
+}
+.blockSvg {
+  display: flex;
+  flex-direction: column;
+}
+
+.listen {
+  margin-top: 150px;
+  width: 289px;
+  height: 72px;
+}
+.listen div img {
+  cursor: pointer;
+}
+
+.listen img {
+  padding-right: 16px;
+}
+
+.lineNext {
+  position: absolute;
+}
+
+.block2 {
+  height: 2088px;
+}
+
+.latestEpisode {
+  height: 100px;
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textEpisodeSpan {
+  font-size: 64px;
+}
+.blueEpisode {
+  border-radius: 6px;
+  background: #118da8;
+  width: 178px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+.blueEpisode span {
+  align-self: center;
+  font-size: 14px;
+}
+.miniEpisode1,
+.miniEpisode2,
+.miniEpisode3 {
+  width: 1300px;
+  height: 545px;
+  background-color: black;
+  border-radius: 32px;
+  margin: 40px 0;
+}
+.allEpisode {
+  margin: 0 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.miniEpisode1 {
+  display: flex;
+}
+
+.blockEpisode {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.imgEpisode1 {
+  margin: 40px;
+}
+.tagEpisode {
+  align-items: center;
+  justify-content: center;
+  width: 73px;
+  height: 27px;
+  display: flex;
+  font-size: 18px;
+  background-color: #191919;
+}
+.episodeNumber {
+  display: flex;
+  color: #118da8;
+  margin-top: 35px;
+}
+.titleEpisode {
+  display: flex;
+  font-size: 64px;
+  text-align: start;
+}
+.overviewEpisode {
+  display: flex;
+  text-align: start;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+.blueButton {
+  width: 208px;
+  height: 51px;
+  display: flex;
+  background-color: #118da8;
+  font-size: 13px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.album {
+  margin: 100px 50px;
+  display: flex;
+  gap: 60px;
+}
+.infoAlbum {
+  margin: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.textBlockAlbum {
+  display: flex;
+}
+
+.circleArrow {
+  background: #118da8;
+  width: 112px;
+  height: 112px;
+  border-radius: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.circleArrow img {
+  width: 60px;
+  height: 90px;
+}
+.infoTextAlbum {
+  display: flex;
+}
+.nameNiger2 {
+  font-size: 65px;
+}
+.overviewInfoJacob {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+}
+
+.blockSubcribe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 70px;
+  width: 1300px;
+  height: 387px;
+  background-color: black;
+  border-radius: 32px;
+}
+.blockSubcribeText {
+  width: 642px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 60px;
+}
+.blockSubcribeForm {
+  width: 522px;
+  height: 252px;
+  margin-right: 40px;
+}
+.inputForm {
+  width: 522px;
+  height: 82px;
+  background: #191919;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.blockReviews {
+  width: 423px;
+  height: 321px;
+  background-color: black;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+}
+.gridBlocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+.block5 {
+  display: flex;
+  justify-content: center;
+}
+
+.starsBlock {
+  position: absolute;
+  margin-top: -190px;
+  margin-left: 38px;
+}
+.titleReviews {
+  position: relative;
+  width: 320px;
+  margin-left: 38px;
+  margin-top: 20px;
+}
+.nameReviews {
+  position: absolute;
+  margin-left: 38px;
+  margin-top: 230px;
+}
+.footer {
+  display: flex;
+  width: 1300px;
+  height: 222px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+}
+.footerBlock1{
+  display: flex;
+width: 447.141px;
+height: 290px;
+padding: 0.125px 0px 128.891px 0px;
+flex-direction: column;
+align-items: flex-start;
+
+gap: 19.984px;
+}
+.footerBlock2{
+  width: 178.844px;
+  display: flex;
+  align-items: start;
+  text-align: start;
+}
+
+.footerBlock3{
+  width: 178.844px;
+}
+.footerBlock4{
+  width: 447.141px;
+}
+
+.li{
+  padding: 5px;
+  font-size: 20px;
+  text-align: start;
+  cursor: pointer;
+}
